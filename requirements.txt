@@ -1,0 +1,38 @@
+# ─────────────────────────────────────────────────────────────
+# Requirements – COVID-19 Chest X-Ray Detector
+# Author : Madhusudan Manna
+# Usage  : pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+streamlit==1.32.2
+tensorflow
+tensorflow-cpu==2.16.1
+numpy
+pillow
+h5py
+
+# ── Core Deep Learning ────────────────────────────────────────
+tensorflow
+keras
+keras-tuner
+
+# ── Data & Numerics ───────────────────────────────────────────
+numpy
+pandas
+scikit-learn
+
+# ── Image Processing ──────────────────────────────────────────
+opencv-python-headless
+Pillow
+
+# ── Visualisation ─────────────────────────────────────────────
+matplotlib
+seaborn
+
+# ── Web Application ───────────────────────────────────────────
+streamlit
+
+# ── Kaggle API (dataset download) ────────────────────────────
+kaggle
+
+# ── Utilities ─────────────────────────────────────────────────
+tqdm
